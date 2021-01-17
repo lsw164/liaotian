@@ -18,7 +18,7 @@ public class MD5 {
         BASE64Encoder base64en = new BASE64Encoder();
         //加密后的字符串
         String newstr=base64en.encode(md5.digest(str.getBytes("utf-8")));
-        System.out.println(newstr);
+        //System.out.println(newstr);
         return newstr;
     }
 
